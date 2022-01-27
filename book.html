@@ -49,20 +49,32 @@
 		  <input type="text" id="fname" name="fname"><br>
 	</div>
 	<div class="input">
-		  <label for="lname">Tischnummer:</label><br>
-		  <input type="text" id="lname" name="lname">
+		  <label for="table">Tischnummer:</label><br>
+		  <input type="number" id="table" name="table" min="1" max="25">
+		  <span>Hinweis: Bitte eine Nummer zwischen 1 und 25 eingeben</span>
 	</div>
 	<div class="input">
-		  <label for="lname">Datum:</label><br>
-		  <input type="text" id="lname" name="lname">
+		  <label for="date">Datum:</label><br>
+		  <input type="date" id="date" name="date" value="2022-01-27">
 	</div>
 	<div class="input">
-		  <label for="lname">Zeit:</label><br>
-		  <input type="text" id="lname" name="lname">
+		  <label for="time">Zeit:</label><br>
+		  <input type="time" id="time" name="time" min="10:00" max="00:00" required>
 	</div>
 	<div class="input">
-		  <label for="lname">Anzahl Personen:</label><br>
-		  <input type="text" id="lname" name="lname">
+		  <label for="persons">Anzahl Personen:</label><br>
+		  <input type="number" id="persons" name="persons" min="1" max="10">
+		  <span>Hinweis: Bitte eine Nummer zwischen 1 und 10 eingeben</span>
+	</div>
+	<div class="input">
+		<label for="lname">Mailadresse:</label><br>
+		<input type="email" id="mail" name="mail">
+		<span>Hinweis: Bitte eine gültige Mailadresse eingeben</span>
+	</div>
+	<div class="input">
+		<label for="lname">Telefonnummer:</label><br>
+		<input type="number"  id="phone" name="phone">
+		<span>Hinweis: Bitte eine gültige Telefonnummer eingeben</span>
 	</div>
 </form> 
 	
@@ -155,6 +167,6 @@
 
     </section>
 	<div class="btn-big-box">
-		<a href="deliv.html" class="btn">Bestätigen</a> 
+		<a href="book_order.html" class="btn">Bestätigen</a> 
 	</div>
 </html>

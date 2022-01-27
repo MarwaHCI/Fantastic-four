@@ -300,8 +300,8 @@ img {
   margin-right: auto;
   padding: 10%;
   margin-top:10%;
-  width: 200%;
-  height: 100%;
+  width: 400%;
+  height: 200%;
 		
 }
 
@@ -313,7 +313,7 @@ img {
   padding: 0.2%;
   margin-top:0%;
   width: 200%;
-  height: 50%;
+  height: 100%;
 	
 }
 
@@ -339,9 +339,4 @@ img {
     font-weight: 100;
     letter-spacing: 3px;
 	text-transform: none;
-}
-
-.p-notification{
-	color: white;
-	width: 200%;
 }
